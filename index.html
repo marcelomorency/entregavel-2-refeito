@@ -1,0 +1,97 @@
+<html>
+
+    <head>
+
+        <title>ativade alzir 2</title>
+        <script src="hello.js"> </script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+
+    <body>
+        <nav>
+            <div class="logotipo">
+                <a href="https://www.ibm.com/training/?query"><img class="ibm" src="./assets/images.png" alt=""></a>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Work</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Tell us</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+        <main>
+            <div class="alzirconteudo">
+            <a href="https://www.ibm.com/training/?query="><img class="alzir"src="./assets/Alzir_porta.jpg"></a>
+        </div>
+            <div class="toggle" onclick="toggleMenu()"></div>
+        <div class="container">
+
+            <button class="click">Click Me</button>
+
+            <div class="list">
+
+                <button class="links"><a class="contador" href="./contador/contador.html">Contador</a></button>
+
+                <button class="links"><a class="fibonacci"href="./fibonacci/fibonacci.html">Fibonacci</a></button>
+
+                <button class="links"><a class ="mdc"href="./mdc/mdc.html">MDC</a></button>
+
+                <button class="links"><a class ="numeroprimo" href="./numeroprimo/numeroprimo.html">Numeroprimo</a></button>
+
+                <button class="links"><a class ="somatorio"href="./somatorio/somatorio.html">Somatorio</a></button>
+
+            </div>
+            <div class="texto">
+                <a class="texto" href="https://www.ibm.com/training/?query="><h2>Faça o Percuso em Cobol.</h2></a>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer-content">
+        <h3>code Morency</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit semper libero eget ultrices. Nulla lacinia fringilla consequat. Proin tincidunt vehicula ipsum eget iaculis</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="i fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2022 CodeMorency. designed by <span>Marcelo Mont - Morency</span></p>
+    </div>
+</footer>
+<script>
+    let click = document.querySelector('.click');
+
+    let list = document.querySelector('.list');
+
+    click.addEventListener("click",()=>{
+
+        list.classList.toggle('newlist');
+
+    });
+</script>
+
+
+    </body>
+
+</html>
